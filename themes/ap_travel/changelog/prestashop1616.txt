@@ -1,0 +1,10 @@
+****** File tpl ****
+- shopping-cart-advanced.tpl
+- discount.tpl
+- \modules\loyalty\views\templates\front\loyalty.tpl
+- \modules\blockwishlist\blockwishlist-extra.tpl
+- \modules\blockwishlist\blockwishlist_button.tpl
+- \modules\blockwishlist\blockwishlist.tpl
+- \modules\blockwishlist\views\templates\front\view.tpl
+- \modules\blockwishlist\views\templates\front\mywishlist.tpl
+- \modules\blockwishlist\views\templates\front\managewishlist.tpl

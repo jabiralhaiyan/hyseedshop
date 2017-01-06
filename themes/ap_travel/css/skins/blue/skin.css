@@ -1,0 +1,332 @@
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+/** CHECKOUT BY STEP */
+a {
+  /* color: $base-text-color; */
+}
+a:hover, a:focus {
+  color: #029ecf;
+}
+
+body {
+  background-color: white;
+}
+
+#header-main {
+  background: white;
+}
+#header-main .container {
+  background: white;
+  color: #333333;
+}
+
+.btn-outline {
+  color: white;
+  background-color: #029ecf;
+  border-color: #029ecf;
+}
+.btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active {
+  color: white;
+  background-color: black;
+  border-color: black;
+}
+.open .btn-outline.dropdown-toggle {
+  color: white;
+  background-color: black;
+  border-color: black;
+}
+.btn-outline:active, .btn-outline.active {
+  background-image: none;
+}
+.open .btn-outline.dropdown-toggle {
+  background-image: none;
+}
+.btn-outline.disabled, .btn-outline.disabled:hover, .btn-outline.disabled:focus, .btn-outline.disabled:active, .btn-outline.disabled.active, .btn-outline[disabled], .btn-outline[disabled]:hover, .btn-outline[disabled]:focus, .btn-outline[disabled]:active, .btn-outline[disabled].active, fieldset[disabled] .btn-outline, fieldset[disabled] .btn-outline:hover, fieldset[disabled] .btn-outline:focus, fieldset[disabled] .btn-outline:active, fieldset[disabled] .btn-outline.active {
+  background-color: #029ecf;
+  border-color: #029ecf;
+}
+.btn-outline .badge {
+  color: #029ecf;
+  background-color: white;
+}
+
+.btn-inverse {
+  color: white;
+  background-color: black;
+  border-color: black;
+}
+.btn-inverse:hover, .btn-inverse:focus, .btn-inverse:active, .btn-inverse.active {
+  color: white;
+  background-color: #029ecf;
+  border-color: #029ecf;
+}
+.open .btn-inverse.dropdown-toggle {
+  color: white;
+  background-color: #029ecf;
+  border-color: #029ecf;
+}
+.btn-inverse:active, .btn-inverse.active {
+  background-image: none;
+}
+.open .btn-inverse.dropdown-toggle {
+  background-image: none;
+}
+.btn-inverse.disabled, .btn-inverse.disabled:hover, .btn-inverse.disabled:focus, .btn-inverse.disabled:active, .btn-inverse.disabled.active, .btn-inverse[disabled], .btn-inverse[disabled]:hover, .btn-inverse[disabled]:focus, .btn-inverse[disabled]:active, .btn-inverse[disabled].active, fieldset[disabled] .btn-inverse, fieldset[disabled] .btn-inverse:hover, fieldset[disabled] .btn-inverse:focus, fieldset[disabled] .btn-inverse:active, fieldset[disabled] .btn-inverse.active {
+  background-color: black;
+  border-color: black;
+}
+.btn-inverse .badge {
+  color: black;
+  background-color: white;
+}
+
+.ajax_add_to_cart_button {
+  background: #029ecf;
+  border: 1px solid #029ecf;
+}
+.ajax_add_to_cart_button:hover {
+  color: white;
+  background: black;
+  border: 1px solid black;
+}
+
+.sidebar .block .title_block {
+  background: #029ecf;
+}
+
+.carousel-control {
+  border: 1px solid #029ecf;
+  color: #029ecf;
+}
+.carousel-control:hover {
+  background: #029ecf !important;
+}
+
+.widget-manufacture .carousel-control {
+  color: #029ecf !important;
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus,
+.nav-tabs > li > a:hover,
+.nav-tabs > li > a:focus {
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid #029ecf;
+}
+
+#topbar {
+  background: #029ecf;
+}
+#topbar .container {
+  background: #029ecf;
+  color: #888888;
+}
+#topbar a {
+  color: #888888;
+}
+#topbar a:hover {
+  color: #029ecf;
+}
+
+#cart .title-cart {
+  color: #029ecf;
+  background: #FFF;
+}
+#cart .title-cart .cart-quantity {
+  background: #0c5b73;
+}
+
+.popup-over .popup-title:before {
+  color: #0c5b73;
+}
+
+li.login, li.login a, a.account, .popup-title, #search_block_top, #cart h4 {
+  color: #fff !important;
+}
+
+#leo-megamenu .navbar-nav > li > a:hover, #leo-megamenu .navbar-nav > li > a:focus, #leo-megamenu .navbar-nav > li > a:active {
+  color: #029ecf !important;
+  border-bottom: 3px solid #029ecf;
+}
+#leo-megamenu .navbar-nav > li:active > a {
+  color: #029ecf;
+}
+#leo-megamenu .navbar-nav > li:hover > .caret, #leo-megamenu .navbar-nav > li:active > .caret {
+  color: #029ecf;
+}
+#leo-megamenu .navbar-nav > li.active > a {
+  border-bottom: 3px solid #029ecf;
+  color: #029ecf !important;
+}
+#leo-megamenu .dropdown-menu li a:hover {
+  background-color: transparent;
+  color: #029ecf !important;
+}
+
+/* PRODUCT */
+.product-block .price, .product-block .name a:hover {
+  color: #029ecf;
+}
+.product-block .price-percent-reduction {
+  background: #029ecf;
+}
+.product-block .functional-buttons .wishlist, .product-block .functional-buttons .compare {
+  border-left: 1px solid #0c5b73;
+}
+.rtl .product-block .functional-buttons .wishlist, .rtl .product-block .functional-buttons .compare {
+  border-right: 1px solid #0c5b73;
+  border-left: inherit;
+}
+
+.our_price_display, #availability_value, #last_quantities {
+  color: #029ecf;
+}
+
+/* MODULE */
+form#searchbox button.btn {
+  background: white;
+  color: #029ecf;
+}
+
+.newsletter #newsletter_block_left {
+  background: #c9e4ed;
+  border-left: 80px solid #029ecf;
+}
+.rtl .newsletter #newsletter_block_left {
+  border-right: 80px solid #029ecf;
+  border-left: inherit;
+}
+.newsletter #newsletter_block_left .title_block {
+  color: #029ecf;
+}
+.newsletter input.form-control, .newsletter .input-group-addon {
+  background: white;
+}
+
+.widget-footer-top:before {
+  background: white;
+}
+
+.widget-footer-nav:before {
+  border-top: 3px double #029ecf;
+}
+
+#social_block ul li a {
+  color: #029ecf;
+}
+#social_block ul li a:hover {
+  background: #029ecf;
+}
+#social_block ul li a:before {
+  border: 2px solid #029ecf;
+}
+
+.socialsharing_product .btn-facebook,
+.socialsharing_product .btn-twitter,
+.socialsharing_product .btn-google-plus,
+.socialsharing_product .btn-pinterest {
+  background: transparent;
+  color: #029ecf;
+}
+.socialsharing_product button {
+  border: 2px solid #029ecf;
+}
+
+#usefull_link_block li {
+  border: 2px solid #029ecf;
+}
+#usefull_link_block li a:before {
+  color: #029ecf;
+}
+#usefull_link_block li#favoriteproducts_block_extra_remove:before, #usefull_link_block li#favoriteproducts_block_extra_add:before, #usefull_link_block li#favoriteproducts_block_extra_removed:before, #usefull_link_block li#favoriteproducts_block_extra_added:before {
+  color: #029ecf;
+}
+
+/* FOOTER */
+#footer {
+  background: #c9e4ed;
+}
+#footer .container {
+  background: #c9e4ed;
+  color: #333333;
+}
+#footer a {
+  color: #333333;
+}
+#footer a:hover {
+  color: #029ecf;
+}
+#footer .title_block {
+  color: #029ecf;
+}
+#footer .title_block a {
+  color: #029ecf;
+}
+
+.content_sortPagiBar {
+  background: #c9e4ed;
+}
+.content_sortPagiBar .display .selected a .fa {
+  color: #029ecf;
+}
+
+.pagination > .active > a, .pagination > .active > a:hover, .pagination > .active > a:focus,
+.pagination > .active > span,
+.pagination > .active > span:hover,
+.pagination > .active > span:focus {
+  color: #029ecf;
+}
+.pagination > li > a:hover, .pagination > li > a:focus,
+.pagination > li > span:hover,
+.pagination > li > span:focus {
+  color: #029ecf;
+}
+
+#backtop {
+  background: #029ecf;
+}
+
+.breadcrumb {
+  background-color: #c9e4ed;
+  color: #029ecf;
+}
+.breadcrumb a:hover {
+  color: #029ecf;
+}
+
+#off-canvas-nav .offcanvas-mainnav {
+  background: #029ecf;
+}
+#off-canvas-nav .navbar-nav > li > a:hover, #off-canvas-nav .navbar-nav > li > a:focus {
+  background: #c9e4ed;
+  color: #029ecf !important;
+}
+
+.navbar-header .navbar-toggle {
+  background: #029ecf;
+}
+
+.widget .owl-theme .owl-controls .owl-buttons div {
+  border: 1px solid #029ecf;
+  color: #029ecf;
+}
+.widget .owl-theme .owl-controls .owl-buttons div:hover {
+  background: #029ecf;
+}
+.widget .owl-theme .owl-controls .owl-page.active span {
+  background: #029ecf;
+}

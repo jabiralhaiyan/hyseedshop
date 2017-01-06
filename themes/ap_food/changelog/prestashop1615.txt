@@ -1,0 +1,10 @@
+/**************************************************
+	Changelog Of Prestashop 1.6.1.5
+**************************************************/
+**** File tpl ****
+- header.tpl
+
+**** File JS ****
+- \js\product.js
+- \js\stores.js
+- \js\modules\blocklayered\blocklayered.js

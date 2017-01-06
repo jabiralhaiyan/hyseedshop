@@ -1,0 +1,197 @@
+/************************************* desktop menu************************************/
+#menu-trigger {
+	display: none;
+}
+#menu-wrap {
+	background: #fff;
+	position: relative;
+	z-index: 2;
+	border:1px solid #dfdfdf;
+	margin-bottom:16px;
+	display:none;
+}
+#menu-custom, #menu-custom ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#menu-custom:before, #menu-custom:after {
+	display: table;
+	content: "";
+}
+#menu-custom:after {
+	clear: both;
+}
+#menu-custom {
+	zoom: 1;
+}
+.desktop #menu-custom li {
+	float: left;
+	position: relative;
+}
+.desktop #menu-custom > li:first-child > a {
+	padding-left: 20px;
+}
+.desktop #menu-custom  a {
+	float: left;
+	padding: 15px 30px;
+	color: #A9A9A9;
+	text-transform: uppercase;
+	font: bold 15px/18px "Open Sans", sans-serif;
+	text-decoration: none;
+	font-weight:600;
+	border-right:1px solid #dfdfdf;
+}
+.desktop #menu-custom a:hover, .desktop #menu-custom > li:hover > a, .desktop #menu-custom > li.sfHoverForce > a {
+	color: #7cd3c0;
+}
+.desktop #menu-custom li li:hover > a {
+	color: #7cd3c0;
+}
+.desktop #menu-custom ul {
+	display: none;
+	margin: 20px 0 0 0;
+	opacity: 0;
+	visibility: hidden;
+	position: absolute;
+	top: 48px;
+	left: 0px;
+	z-index: 1;
+	background: #fff;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-ms-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+	border:1px solid #dfdfdf;
+}
+.desktop #menu-custom ul {
+	left:-1px;
+}	
+.desktop #menu-custom li:hover > ul {
+	display: block;
+	opacity: 1;
+	visibility: visible;
+	margin: 0;
+}
+.desktop #menu-custom ul ul {
+	top: -1px;
+	left: 220px;
+	margin: 0 0 0 20px;
+}
+.desktop #menu-custom ul li {
+	display: block;
+	float: none;
+	border: 0;
+}
+.desktop #menu-custom ul a {
+	display: block;
+	float: none;
+	padding: 10px;
+	width: 220px;
+	white-space: nowrap;
+	text-transform: none;
+	font: normal 14px/16px Arial, Helvetica, sans-serif;
+	border:none;
+}
+#menu-trigger {
+	display: none;
+}
+.desctop #menu-custom {
+	display: block;
+}
+/**************************************************mobile menu**************************************************************/
+@media only screen and (max-width:767px) {
+#menu-wrap.desktop {
+	display: none;
+}
+#menu-wrap {
+	position: relative;
+	display:block;
+}
+#menu-wrap * {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+#menu-trigger {
+	height: 48px;
+	line-height: 48px;
+	cursor: pointer;
+	padding: 0 0 0 20px;
+	color: #A9A9A9;
+	font-weight: 600;
+	font-family:'Open Sans', sans-serif;
+	font-size: 15px;
+	text-transform:uppercase;
+}
+#menu-trigger .menu-icon {
+	display: block;
+	font-size: 30px;
+	line-height: 30px;
+	width: auto;
+	position: absolute;
+	top: 8px;
+	right: 14px;
+}
+.mobile #menu-custom {
+	display: none;
+	margin: 0;
+	padding: 0px;
+	position: absolute;
+	top: 48px;
+	width: 100%;
+	z-index: 1;
+	background-color: #fff;
+	border:1px solid #dfdfdf;
+}
+#menu-custom ul.menu-mobile-2 {
+	display: none;
+}
+#menu-custom li {
+	display: block;
+	position: static;
+	position: relative;
+}
+#menu-custom a {
+	display: block;
+	float: none;
+	padding: 10px 20px;
+	color: #A9A9A9;
+	font-size: 15px;
+	font-family:'Open Sans', sans-serif;
+	text-transform:uppercase;
+	border-top:1px solid #dfdfdf;
+}
+#menu-custom > ul > li:first-child a { border:none;}
+#menu-custom a:hover {
+	color:#7cd3c0;
+}
+#menu-custom ul a {
+	padding-left: 40px;
+	width: auto;
+}
+#menu-custom ul ul a {
+	padding-left: 60px;
+	width: auto;
+}
+.open-mobile-2 {
+	display: block;
+	font-size: 25px;
+	line-height: 30px;
+	position: absolute;
+	right: 13px;
+	top: 4px;
+	height: 30px;
+	width: 30px;
+	text-align: center;
+	vertical-align: middle;
+	color: #a9a9a9;
+}
+.open-mobile-2:hover {
+	cursor: pointer;
+}
+.open-mobile-2:hover + a {
+	color:#F95900 !important;
+}
+}

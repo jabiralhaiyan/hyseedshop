@@ -1,0 +1,48 @@
+@import "compass";
+@import "theme_variables";
+
+$image-theme-base-path: "img/";
+
+$theme-color-default: 		#029ECF;
+
+$link-hover-color: 			$theme-color-default;
+$yellow-light:				#0c5b73;
+$body-bg:					#fff;
+$silver:						#C9E4ED;
+
+
+$topbar-outside-bg:			#029ECF;
+$topbar-bg: 				$topbar-outside-bg !default;
+$topbar-color:				#888;
+$topbar-color-hover: 		$link-hover-color;
+
+
+$headermain-outside-bg :			#fff !default; 
+$headermain-bg: 			 		$headermain-outside-bg !default;
+$headermain-color:					$text-color !default;
+
+
+$megamenu-link-hover-color 	:$link-hover-color;
+
+
+
+$footer-outside-bg :				#C9E4ED;
+$footer-bg: 						$footer-outside-bg !default;
+$footer-color: 						$text-color !default;
+
+$product-name-hover-color: 			$link-hover-color;
+$product-price-color: 				$theme-color-default;
+
+$breadcrumb-active-color: 			$link-hover-color;
+$breadcrumb-bg			:			#c9e4ed	;
+
+$button-addtocart-border:		$theme-color-default;
+$button-addtocart-color-hover	:#fff;
+$button-addtocart-bg-hover		:#000;
+$button-addtocart-border-hover	:#000;
+$button-addtocart-border-2:  $theme-color-default;
+
+@import "../_skin";
+
+
+

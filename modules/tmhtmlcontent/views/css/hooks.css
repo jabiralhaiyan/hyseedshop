@@ -1,0 +1,243 @@
+/* Home hook CSS */
+#htmlcontent_top li.htmlcontent-item a.item-link { display:block;-webkit-transition: all 0.3s linear;
+-moz-transition: all 0.3s linear;
+-ms-transition: all 0.3s linear;
+-o-transition: all 0.3s linear;
+transition: all 0.3s linear;
+}
+#htmlcontent_top li.htmlcontent-item a:hover{-webkit-box-shadow: 1px 1px 5px rgba(200, 200, 200, 1);
+box-shadow: 1px 1px 5px rgba(200, 200, 200, 1);-webkit-transition: all 0.3s linear;
+-moz-transition: all 0.3s linear;
+-ms-transition: all 0.3s linear;
+-o-transition: all 0.3s linear;
+transition: all 0.3s linear;}
+#htmlcontent_top li.htmlcontent-item a:hover h4,
+#htmlcontent_top li  a:hover h3{ color:#333;-webkit-transition: all 0.3s linear;
+-moz-transition: all 0.3s linear;
+-ms-transition: all 0.3s linear;
+-o-transition: all 0.3s linear;
+transition: all 0.3s linear;}
+
+#htmlcontent_top li.htmlcontent-item div.item-html {
+	position:absolute; left:0; top:0; width:100%;
+}
+
+/* Top hook CSS */
+#htmlcontent_top li {
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-ms-box-sizing:border-box;	
+}
+#htmlcontent_top li > div {
+	position:relative;
+}
+#htmlcontent_top li h3{	
+	font-family:'Open Sans', sans-serif;	
+	font-size:40px;
+	color:#ff906a;
+	font-weight:600;
+	padding-left:38px;
+	margin-top:-14px;
+	-webkit-transition: all 0.3s linear;
+	-moz-transition: all 0.3s linear;
+	-ms-transition: all 0.3s linear;
+	-o-transition: all 0.3s linear;
+	transition: all 0.3s linear;
+}
+.htmlcontent-top li h4 {
+	font-family:'Open Sans', sans-serif;	
+	font-size:40px;
+	color:#64392a;
+	font-weight:600;
+	margin:88px 0 0px 0;
+	padding-left:38px;
+	line-height:40px;
+	-webkit-transition: all 0.3s linear;
+	-moz-transition: all 0.3s linear;
+	-ms-transition: all 0.3s linear;
+	-o-transition: all 0.3s linear;
+	transition: all 0.3s linear;
+}
+#htmlcontent_top li .banner_container3 h3{ text-align:center; font-size:18px; color:#ab9a94; text-transform:uppercase; padding-left:0;}
+#htmlcontent_top li .banner_container3 h4 span{ margin-top:-10px;}
+#htmlcontent_top li .banner_container3 h4{ font-size:69px; margin-top:20px; line-height:69px; padding-left:0; text-align:center;}
+#htmlcontent_top li .banner_container2 h4{ margin-top:30px;}
+#htmlcontent_top li h4 span{ font-size:18px; display:block; text-transform:uppercase;}
+body.instant_search #htmlcontent_top { display:none;}
+@media only screen and (min-width: 992px) {
+	.htmlcontent-top  {margin-right:0px; margin-left:0; float:left; width:399px;}
+	#htmlcontent_top ul > li {padding-right:0; padding-left:30px; margin-top:16px;}
+	#htmlcontent_top ul > li:hover .right_side h3, #htmlcontent_top ul > li:hover .bottom {
+		color:#F95900;
+	}
+	#htmlcontent_top ul > li:hover .right_side h4 {
+		color:#fff;
+	}
+	#htmlcontent_top ul > li:first-child { margin-top:0;}
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	.htmlcontent-top  {margin-right:0px; margin-left:0; float:left; width:321px ;}
+	#htmlcontent_top ul > li { margin-top:16px;}
+	.htmlcontent-top li .left_side {
+		width:120px;
+		font-size:13px;	
+		padding:25px 0 25px;
+	}
+	.htmlcontent-top li .left_side span {
+		font-size:25px;	
+	}
+	.htmlcontent-top li .right_side {
+		padding:18px 0 23px 30px;
+	}	
+	.htmlcontent-top li .right_side h4 {
+		font-size:16px;	
+	}
+	.htmlcontent-top li .right_side h3 {
+		font-size:30px;	
+	}
+}	
+
+	@media only screen and (min-width: 480px) and (max-width: 992px) {	
+	.main_page_products li .product_image{ width:200px;}
+	.htmlcontent-top li h4{ font-size:17px; line-height:20px; padding-left:12px; margin-top:36px;}
+	#htmlcontent_top li .banner_container2 h4{ display:none;}
+	#htmlcontent_top li h3{ font-size:17px; line-height:20px; margin-top:35px; padding-left:12px;}
+	#htmlcontent_top li .banner_container3 h4{ font-size:20px; line-height:33px;}
+	#htmlcontent_top li .banner_container3 h4{ margin-top:23px;}
+	#htmlcontent_top li .banner_container3 h3{ display:none;}
+	
+	#htmlcontent_top li h4 span{ display:none;}
+	#htmlcontent_top ul > li { margin-top:16px;}
+	.htmlcontent-top li .left_side {
+		width:100px;
+		font-size:13px;	
+		padding:25px 0 25px;
+		height:97px;
+	}
+	.htmlcontent-top li .left_side span {
+		font-size:25px;	
+	}
+	.htmlcontent-top li .right_side {
+		padding:26px 0 26px 10px;
+		height:97px;
+	}	
+	.htmlcontent-top li .right_side h4 {
+		font-size:12px;	
+		margin-bottom:0;
+	}
+	.htmlcontent-top li .right_side h3 {
+		font-size:20px;	
+	}
+}
+@media only screen and (min-width: 480px) and (max-width: 730px) {
+	.htmlcontent-top li .left_side, .htmlcontent-top li .right_side {
+		width:100%;
+		float:none;
+	}
+	.htmlcontent-top li .left_side {
+		padding:10px 0 10px;
+		height:auto;	
+	}
+	.htmlcontent-top li .right_side {
+		padding:10px 15px 10px;
+		height:auto;
+		text-align:center;
+	}
+	.htmlcontent-top li .bottom {
+		font-size:12px;	
+	}
+	.htmlcontent-top li .bottom span i {
+		font-size:14px;	
+	}
+}
+@media (max-width: 480px) {
+	.htmlcontent-top li {
+		width:100%;
+		float:none;
+	}	
+	.htmlcontent-top li h4{ font-size:37px;}
+	#htmlcontent_top li h4 span{ font-size:15px;}
+#htmlcontent_top li{ margin-top:20px;}
+#htmlcontent_top li img{ display:none;}
+#htmlcontent_top li.htmlcontent-item a.item-link{ background:#f3efe9; height:170px; }
+}
+
+@media only screen and (min-width: 950px) and (max-width: 1199px) {	
+.htmlcontent-top li h4{ font-size:30px;}
+#htmlcontent_top li h4 span{ font-size:14px;}
+.htmlcontent-top li h4{ margin-top:61px;}
+#htmlcontent_top li .banner_container2 h4{ margin-top:15px;}
+#htmlcontent_top li h3{ font-size:31px;}
+#htmlcontent_top li .banner_container3 h4{ font-size:42px; line-height:50px}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 979px) {	
+.htmlcontent-top li h4{ font-size:20px; line-height:22px; padding-left:12px; margin-top:35px;}
+#htmlcontent_top li h4 span{ font-size:12px; line-height:31px;}
+#htmlcontent_top li h3{ padding-left:12px; font-size:25px; margin-top:35px; line-height:25px;}
+#htmlcontent_top li .banner_container2 h4{ margin-top:20px;}
+#htmlcontent_top li .banner_container3 h4{ font-size:25px; line-height:32px; margin-top:31px}
+#htmlcontent_top li .banner_container3 h4 span{ margin-top:-4px;}
+#htmlcontent_top li .banner_container3 h3{ font-size:14px;}
+#categories_block_left ul li a{ padding-right:10px;}
+
+
+}
+
+/* Left hook CSS */
+#htmlcontent_left {
+	text-align:center;
+	text-transform:uppercase;
+}
+#htmlcontent_left li .top {
+	background:#7cd3c0;
+	color:#fff;	
+	padding:40px 0 20px 0;
+	font-family:'Open Sans', sans-serif;
+}
+#htmlcontent_left li .top span, #htmlcontent_left li .top strong {
+	display:block;	
+}
+#htmlcontent_left li .top span.type_one {
+	font-size:31px;
+	font-weight:600;
+	color:#fff;
+		line-height:normal;
+	text-transform:uppercase;
+}
+#htmlcontent_left li .top strong.type_two {
+	font-size:20px;
+	line-height:normal;
+	font-weight:600;
+	margin-top:3px;
+		text-transform:uppercase;
+			color:#fff;
+}
+#htmlcontent_left li .top strong.type_three {
+	font-size:11px;
+	line-height:normal;
+	font-weight:300;	
+	margin-top:0px;
+	text-transform:uppercase;
+	color:#fff;
+	padding:25px 0px 25px 0px;
+}
+#htmlcontent_left li:hover span.type_one, #htmlcontent_left li:hover strong.type_two, #htmlcontent_left li:hover strong.type_three, #htmlcontent_left li:hover span.type_four {
+	color:#333;
+}
+@media only screen and (min-width: 950px) and (max-width: 1199px) {	
+#htmlcontent_left li .top span.type_one{ font-size:22px;}
+#htmlcontent_left li .top strong.type_two{ font-size:16px;}
+}	
+@media only screen and (min-width: 768px) and (max-width: 979px) {	
+#htmlcontent_left li .top span.type_one{ font-size:18px;}
+#htmlcontent_left li .top strong.type_two{ font-size:13px;}
+}
+/* Right hook CSS */
+#htmlcontent_right {
+}
+
+/* Footer hook CSS */
+#htmlcontent_footer {
+}

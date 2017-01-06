@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>bankwire</name>
+	<displayName><![CDATA[Transfer Bank]]></displayName>
+	<version><![CDATA[1.1.2]]></version>
+	<description><![CDATA[Terima pembayaran melalui transfer bank.]]></description>
+	<author><![CDATA[PrestaShop]]></author>
+	<tab><![CDATA[payments_gateways]]></tab>
+	<confirmUninstall><![CDATA[Informasi bank akan dihapus. Lanjutkan?]]></confirmUninstall>
+	<is_configurable>1</is_configurable>
+	<need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>
